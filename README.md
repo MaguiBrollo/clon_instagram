@@ -21,7 +21,7 @@ Vamos a crear un clon de Instagram que contenga los siguientes componentes:
   -- Un texto con la descripción del post
 
   
-  -- La cantidad de likes que recibió el posteo
+  -- La cantidad de likes que recibió el posteo. Si no tiene liks, no debe mostrarse. Si la prop de likes tiene un número de likes, debe mostrarse.
 
   
   -- Un componente Like que muestre un ícono de un corazón contorneado en color neutro si la historia no fue likeada o un corazón rojo si recibió un like
