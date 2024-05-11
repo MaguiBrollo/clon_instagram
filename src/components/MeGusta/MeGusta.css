@@ -1,0 +1,22 @@
+.megusta {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   margin: 10px;
+
+   & .megusta__izq {
+      display: flex;
+      justify-content:space-between;
+      width: 20%;
+   }
+
+   & .megusta__corazon {
+      color: red;
+   }
+
+   & .megusta__der {
+      width: 75%;
+      display: flex;
+      justify-content: flex-end;
+   }
+}

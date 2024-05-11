@@ -1,35 +1,66 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Posteo } from "./components/Post/Posteo";
+
+import img1 from "./assets/imagenes/montania.jpg";
+import img2 from "./assets/imagenes/comida1.jpg";
+import "./App.css";
+
+
+const posteos = [
+	{
+		id: 1,
+		logoUs: "",
+		nombreUs: "lorena.126",
+		desde: "2hs",
+		meGusta: false,
+		guardado: true,
+		cantMeGusta: 100,
+		comentario: [
+			{
+				id: 1,
+				us: "@magui",
+				cmt: "Qué lindo lugar, que la pases re lindo, te lo merecés. Belleza de mujer",
+			},
+			{ id: 2, us: "@aldana", cmt: "Qué seas muy feliz" },
+			{ id: 3, us: "@cintia", cmt: "Bello paisaje" },
+		],
+		imagen: img1,
+	},
+	{
+		id: 2,
+		logoUs: "",
+		nombreUs: "maria.solita",
+		desde: "1d",
+		meGusta: true,
+		guardado: false,
+		cantMeGusta: 10,
+		comentario: [
+			{ id: 1, us: "@rosa", cmt: "Quién es el cocinero?" },
+			{
+				id: 2,
+				us: "@aldana",
+				cmt: "Me invitás? hoy no tengo que comer, y eso se ve buenísimo. Daleee!!!",
+			},
+		],
+		imagen: img2,
+	},
+];
 
 function App() {
-  const [count, setCount] = useState(0)
+	return (
+		<>
+			<p className="">Instagram</p>
 
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+			<div>
+				{posteos.map((post) => {
+					return (
+						<div key={post.id}>
+							<Posteo posteo={post} />
+						</div>
+					);
+				})}
+			</div>
+		</>
+	);
 }
 
-export default App
+export default App;
