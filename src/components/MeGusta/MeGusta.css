@@ -2,7 +2,8 @@
    width: 100%;
    display: flex;
    flex-direction: row;
-   margin: 10px;
+   margin: 10px 0px;
+   font-size: 1.3rem;
 
    & .megusta__izq {
       display: flex;
@@ -15,7 +16,7 @@
    }
 
    & .megusta__der {
-      width: 75%;
+      width: 80%;
       display: flex;
       justify-content: flex-end;
    }

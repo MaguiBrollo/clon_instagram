@@ -4,27 +4,30 @@
    border-radius: 5px;
    background-color: rgb(2, 65, 65);
    color: white;
-   width: 370px;
+   width: 470px;
    display: flex;
    flex-direction: column;
-   padding: 10px 0px;
+   padding: 10px 15px;
 
    & .posteo__img {
       margin: 5px auto;
-      width: 350px;
+      width: 100%;
+      object-fit: cover;
+      aspect-ratio: 4 / 5;
+      object-position: center;
    }
 
    & .posteo__cant-gusta {
       display: flex;
       justify-content: flex-start;
-      margin: 2px 10px;
+      margin: 2px 0px;
    }
 
    & .posteo_coment {
       display: flex;
       flex-direction: row;
       justify-content: flex-start;
-      margin: 2px 10px;
+      margin: 2px 0px;
    }
 
    & .posteo__coment-us {

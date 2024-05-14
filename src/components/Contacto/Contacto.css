@@ -1,0 +1,26 @@
+.contacto__cont {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+
+   & .contacto__img {
+      width: 70px;
+      border-radius: 50%;
+      margin: 10px;
+      object-fit: cover;
+      aspect-ratio: 1 / 1;
+      object-position: center;
+   }
+
+   & .contacto__img--visto {
+      border: 2px solid red;
+   }
+
+   & .contacto__nombre {
+      margin-right: 10px;
+   }
+			
+   & .contacto__desde{
+      color: rgb(178, 176, 176);
+   }
+}

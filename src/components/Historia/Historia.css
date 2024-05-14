@@ -1,0 +1,31 @@
+.historia__cont {
+   display: flex;;
+   flex-direction: column;
+   align-items: center;
+  
+   & .historia__img {
+      width: 70px;
+      border-radius: 50%;
+      margin: 10px;
+      object-fit: cover;
+      aspect-ratio: 1 / 1;
+      object-position: center;
+   }
+
+   & .historia__img--novisto {
+      border: 2px solid red;
+   }
+
+   & .historia__img--visto {
+      border: 2px solid rgb(69, 68, 68);
+      filter: grayscale(100%);
+   }
+
+   & .historia__nombre-novisto {
+      color: black;
+   }
+
+   & .historia__nombre-visto {
+      color: rgb(69, 68, 68);
+   }
+}
