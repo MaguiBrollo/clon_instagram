@@ -15,17 +15,10 @@ function App() {
 				<FaInstagramSquare />
 				Instagram
 			</p>
-			<div className="historias">
-				{historias.map((hist) => {
-					return (
-						<div key={hist.id}>
-							<Historia historia={hist} />
-						</div>
-					);
-				})}
+
+			<div className="carrusel">
+				<Carrusel />
 			</div>
-			<p>----</p>
-			<Carrusel />
 
 			<div className="posteos">
 				{posteos.map((post) => {

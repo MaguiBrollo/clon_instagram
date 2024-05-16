@@ -69,6 +69,20 @@ export const historias = [
 			"https://img.freepik.com/foto-gratis/joven-mujer-caucasica-feliz-desnuda_144627-1275.jpg",
 		historiaVista: true,
 	},
+	{
+		id: 11,
+		nombreContacto: "Peque",
+		historiaFotoContacto:
+			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuGkYm611z89lrnD0IEoodBX0Z7B22UfJFqxM1LvkJxCDmS3VI3zaTsCxBfUZ_9wYBGjM&usqp=CAU",
+		historiaVista: true,
+	},
+	{
+		id: 12,
+		nombreContacto: "Nori.25",
+		historiaFotoContacto:
+			"https://i.pinimg.com/1200x/9b/fc/36/9bfc3622f5eefe55bbd4ec9097cf9fc0.jpg",
+		historiaVista: true,
+	},
 ];
 export const posteos = [
 	{
