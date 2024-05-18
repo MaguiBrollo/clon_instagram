@@ -1,12 +1,10 @@
-//Posteos de Isntagram
-import "./App.css";
+//Posteos de Instagram
 import { FaInstagramSquare } from "react-icons/fa";
 import { Posteo } from "./components/Post/Posteo";
-import { Historia } from "./components/Historia/Historia.jsx";
 import { Carrusel } from "./components/Carrusel/Carrusel.jsx";
+import { posteos } from "./utils/Constantes.js"
 
-import { posteos } from "./utils/Constantes.js";
-import { historias } from "./utils/Constantes.js";
+import "./App.css";
 
 function App() {
 	return (

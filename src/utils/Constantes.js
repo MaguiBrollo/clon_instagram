@@ -137,7 +137,7 @@ export const posteos = [
 		historiaVista: false,
 		meGusta: true,
 		guardado: false,
-		cantMeGusta: 0,
+		cantMeGusta: 1,
 		comentario: [
 			{ id: 1, us: "@Pedro", cmt: "Muy buenooo?" },
 			{ id: 2, us: "@Oscar", cmt: "Vamos de paseo!!!" },

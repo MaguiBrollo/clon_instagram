@@ -17,12 +17,6 @@
       object-position: center;
    }
 
-   & .posteo__cant-gusta {
-      display: flex;
-      justify-content: flex-start;
-      margin: 2px 0px;
-   }
-
    & .posteo_coment {
       display: flex;
       flex-direction: row;

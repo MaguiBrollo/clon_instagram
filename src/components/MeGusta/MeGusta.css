@@ -1,23 +1,33 @@
 .megusta {
    width: 100%;
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    margin: 10px 0px;
    font-size: 1.3rem;
 
    & .megusta__izq {
       display: flex;
-      justify-content:space-between;
-      width: 20%;
+      justify-content: space-between;
+
+      & .megusta__ppal {
+         display: flex;
+         justify-content: space-between;
+         width: 20%;
+
+         & .megusta__corazon {
+            color: red;
+         }
+      }
    }
 
-   & .megusta__corazon {
-      color: red;
-   }
-
-   & .megusta__der {
+   & .megusta__guardado {
       width: 80%;
       display: flex;
       justify-content: flex-end;
+   }
+
+   & .megusta__cant-megusta {
+      font-size: 0.9rem;
+      margin-top: 10px;
    }
 }

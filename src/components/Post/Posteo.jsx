@@ -21,12 +21,8 @@ export const Posteo = ({ posteo }) => {
 				contacto={{ fotoContacto, nombreContacto, desde, historiaVista }}
 			/>
 			<img className="posteo__img" src={imagen} alt="Imagen del post" />
-			<MeGusta megusta={{ meGusta, guardado }} />
-			{cantMeGusta === 0 ? (
-				""
-			) : (
-				<p className="posteo__cant-gusta">{cantMeGusta} Me Gusta</p>
-			)}
+			<MeGusta megusta={{ meGusta, guardado, cantMeGusta }} />
+			
 
 			{comentario.map((com) => {
 				return (

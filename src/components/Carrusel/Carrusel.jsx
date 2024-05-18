@@ -17,19 +17,18 @@ export const Carrusel = () => {
 			}}
 			options={{
 				start: 0, // índice de inicio
-				rewind: true, //si se rebobina
 				rewindByDrag: true, //mover arrastrando
-
-				pagination: false,
-
+				pagination: false, //saca los puntitos blancos
 				type: "slide", //dejar slide
 				width: "700px",
-				arrows: "true", //Determina si crear/buscar flechas o no
-				//autoplay: "true", //reproducción automática o no
+				arrows: "true", // Si usa flechas o no
 				keyborad: "global", //habilita atajos teclado
 				perPage: 8, //número de diapositivas que se mostrarán en una página.
 				perMove: 2, //número de diapositivas que se moverán a la vez
 				drag: "free", //si se permite al usuario arrastrar el carrusel o no
+
+				//autoplay: "true", //reproducción automática o no
+				//rewind: true, //si se rebobina
 			}}
 		>
 			{historias.map((hist) => {
