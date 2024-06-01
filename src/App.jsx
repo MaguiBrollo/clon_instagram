@@ -2,7 +2,7 @@
 import { FaInstagramSquare } from "react-icons/fa";
 import { Posteo } from "./components/Post/Posteo";
 import { Carrusel } from "./components/Carrusel/Carrusel.jsx";
-import { posteos } from "./utils/Constantes.js"
+import { posteos } from "./utils/Constantes.js";
 
 import "./App.css";
 
@@ -20,11 +20,7 @@ function App() {
 
 			<div className="posteos">
 				{posteos.map((post) => {
-					return (
-						<div key={post.id}>
-							<Posteo posteo={post} />
-						</div>
-					);
+					return <Posteo posteo={post} key={post.id} />;
 				})}
 			</div>
 		</>
