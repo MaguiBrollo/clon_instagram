@@ -1,21 +1,21 @@
 //Posteos de Instagram
+import logoInstagram from "./assets/imagenes/instg.png";
 import { Posteo } from "./components/Post/Posteo";
 import { Carrusel } from "./components/Carrusel/Carrusel.jsx";
 import { posteos } from "./utils/Constantes.js";
 
 import "./App.css";
 
-function App({usuarioNombre}) {
+function App({ usuarioNombre }) {
 	return (
 		<>
 			<p className="instagram">
 				<img
 					className="instagram__logo"
-					src="../../src/assets/imagenes/instg.png"
+					src={logoInstagram}
 					alt="Logo Instagram"
 				/>
 				{usuarioNombre}
-				
 			</p>
 
 			<div className="carrusel">

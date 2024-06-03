@@ -4,6 +4,9 @@
 //      -  Chakra
 //      -  React Hook Fomr
 /* ============================== */
+
+import logoInstagram from "./../../assets/imagenes/instg.png";
+
 import { useState } from "react";
 import {
 	Box,
@@ -98,11 +101,7 @@ export const CuentaNueva = ({
 					color="#09384a"
 					borderRadius="lg"
 				>
-					<Image
-						mb="5"
-						src="/../src/assets/imagenes/instg.png"
-						alt="Logo Instagram"
-					/>
+					<Image mb="5" src={logoInstagram} alt="Logo Instagram" />
 
 					<p>Regístrate para ver fotos y vídeos de tus amigos.</p>
 

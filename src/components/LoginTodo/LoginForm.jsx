@@ -4,6 +4,7 @@
 //      -  Chakra
 //      -  Input Controlado
 /* ============================== */
+import logoInstagram from "./../../assets/imagenes/instg.png";
 
 import { ErrorLoginModal } from "./ErrorLoginModal.jsx";
 
@@ -105,11 +106,7 @@ export const LoginForm = ({
 					color="#09384a"
 					borderRadius="lg"
 				>
-					<Image
-						mb="10"
-						src="../../src/assets/imagenes/instg.png"
-						alt="Logo Instagram"
-					/>
+					<Image mb="10" src={logoInstagram} alt="Logo Instagram" />
 
 					<form action="">
 						<FormControl isInvalid={errorUsuario}>
