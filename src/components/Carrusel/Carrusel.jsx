@@ -15,7 +15,7 @@ export const Carrusel = () => {
 				display: "flex",
 				justifyContent: "center",
 				alignItems: "center",
-				backgroundColor: "red",
+				/* backgroundColor: "red", */
 			}}
 			options={{
 				start: 0, // índice de inicio

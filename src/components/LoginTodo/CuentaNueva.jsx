@@ -100,7 +100,7 @@ export const CuentaNueva = ({
 				>
 					<Image
 						mb="5"
-						src="../../src/assets/imagenes/instg.png"
+						src="/../src/assets/imagenes/instg.png"
 						alt="Logo Instagram"
 					/>
 
