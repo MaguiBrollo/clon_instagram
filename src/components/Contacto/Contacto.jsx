@@ -1,7 +1,10 @@
 import "./Contacto.css";
 
+/* ----------------------------------------------------- */
 export const Contacto = ({ contacto }) => {
 	const { fotoContacto, nombreContacto, desde, historiaVista } = contacto;
+
+	/* ------------ */
 	return (
 		<div className="contacto__cont">
 			{historiaVista ? (

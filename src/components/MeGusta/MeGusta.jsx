@@ -11,9 +11,10 @@ import { FaBookmark } from "react-icons/fa6";
 
 import "./MeGusta.css";
 
+/* ----------------------------------------------------- */
 export const MeGusta = ({ megusta }) => {
 	const { meGusta, guardado, cantMeGusta } = megusta;
-	//----
+
 	const [meGus, setMeGus] = useState(meGusta);
 	const [cantMeGus, setCantMeGus] = useState(cantMeGusta);
 
@@ -29,6 +30,7 @@ export const MeGusta = ({ megusta }) => {
 		}
 	};
 
+	/* ------------ */
 	return (
 		<div className="megusta">
 			<div className="megusta__izq">

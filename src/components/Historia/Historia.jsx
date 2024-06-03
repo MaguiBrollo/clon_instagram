@@ -1,7 +1,10 @@
 import "./Historia.css";
 
-export const Historia = ({historia}) => {
+/* ----------------------------------------------------- */
+export const Historia = ({ historia }) => {
 	const { nombreContacto, historiaFotoContacto, historiaVista } = historia;
+
+	/* ------------ */
 	return (
 		<>
 			{historiaVista ? (

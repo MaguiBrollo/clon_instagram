@@ -5,7 +5,9 @@ import "@splidejs/react-splide/css";
 import { historias } from "../../utils/Constantes";
 import { Historia } from "../Historia/Historia";
 
+/* ----------------------------------------------------- */
 export const Carrusel = () => {
+	
 	return (
 		<Splide
 			aria-label="Carrusel de historias"

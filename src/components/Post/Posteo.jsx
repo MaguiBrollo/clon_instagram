@@ -3,6 +3,7 @@ import { Contacto } from "../Contacto/Contacto";
 
 import "./Posteo.css";
 
+/* ----------------------------------------------------- */
 export const Posteo = ({ posteo }) => {
 	const {
 		fotoContacto,
@@ -15,6 +16,8 @@ export const Posteo = ({ posteo }) => {
 		comentario,
 		imagen,
 	} = posteo;
+
+	/* ----------------- */
 	return (
 		<div className="posteo__cont">
 			<Contacto
@@ -22,7 +25,6 @@ export const Posteo = ({ posteo }) => {
 			/>
 			<img className="posteo__img" src={imagen} alt="Imagen del post" />
 			<MeGusta megusta={{ meGusta, guardado, cantMeGusta }} />
-			
 
 			{comentario.map((com) => {
 				return (
