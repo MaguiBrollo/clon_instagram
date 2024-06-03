@@ -15,6 +15,7 @@ function App({usuarioNombre}) {
 					alt="Logo Instagram"
 				/>
 				{usuarioNombre}
+				
 			</p>
 
 			<div className="carrusel">

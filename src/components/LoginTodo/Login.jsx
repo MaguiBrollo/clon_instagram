@@ -24,7 +24,7 @@ const components = {
 		variants: {
 			outline: {
 				field: {
-					border: "5px solid",
+					border: "1px solid",
 					borderColor: "green",
 					focusBorderColor: "gray.500",
 					_focusVisible: {
@@ -64,7 +64,11 @@ export const Login = () => {
 							setPrimeroLogin={setPrimeroLogin}
 						/>
 					) : (
-						<CuentaNueva setPrimeroLogin={setPrimeroLogin} />
+						<CuentaNueva
+							setEstaLogin={setEstaLogin}
+							setUsuarioNombre={setUsuarioNombre}
+							setPrimeroLogin={setPrimeroLogin}
+						/>
 					)}
 				</ChakraProvider>
 			</>
