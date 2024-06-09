@@ -4,7 +4,7 @@
 //      -  Chakra
 //      -  Input Controlado
 /* ============================== */
-import logoInstagram from "./../../assets/imagenes/instg.png";
+import logoRedSocial from "./../../assets/imagenes/RedSocial_ADA.png";
 
 import { ErrorLoginModal } from "./ErrorLoginModal.jsx";
 
@@ -106,7 +106,7 @@ export const LoginForm = ({
 					color="#09384a"
 					borderRadius="lg"
 				>
-					<Image mb="10" src={logoInstagram} alt="Logo Instagram" />
+					<Image mb="10" src={logoRedSocial} alt="Logo Instagram" />
 
 					<form action="">
 						<FormControl isInvalid={errorUsuario}>

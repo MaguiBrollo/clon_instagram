@@ -5,7 +5,7 @@
 //      -  React Hook Fomr
 /* ============================== */
 
-import logoInstagram from "./../../assets/imagenes/instg.png";
+import logoRedSocial from "./../../assets/imagenes/RedSocial_ADA.png";
 
 import { useState } from "react";
 import {
@@ -101,7 +101,7 @@ export const CuentaNueva = ({
 					color="#09384a"
 					borderRadius="lg"
 				>
-					<Image mb="5" src={logoInstagram} alt="Logo Instagram" />
+					<Image mb="5" src={logoRedSocial} alt="Logo Instagram" />
 
 					<p>Regístrate para ver fotos y vídeos de tus amigos.</p>
 

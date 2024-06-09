@@ -1,5 +1,5 @@
 //Posteos de Instagram
-import logoInstagram from "./assets/imagenes/instg.png";
+import logoRedSocial from "./assets/imagenes/RedSocial_ADA.png";
 import { Posteo } from "./components/Post/Posteo";
 import { Carrusel } from "./components/Carrusel/Carrusel.jsx";
 import { posteos } from "./utils/Constantes.js";
@@ -12,7 +12,7 @@ function App({ usuarioNombre }) {
 			<p className="instagram">
 				<img
 					className="instagram__logo"
-					src={logoInstagram}
+					src={logoRedSocial}
 					alt="Logo Instagram"
 				/>
 				{usuarioNombre}
